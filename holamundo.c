@@ -1,16 +1,27 @@
+/*Programa que pide un numero al usuario
+y si coincide con el numero secreto se le avisa
+y se termina el programa.
+TODO:
+-Pedir el numero secreto al grupier
+-El numero debe ser menor que 10,
+si no es asi se le avisa y se le pide otro.
+-Bonus1:El otro jugador tiene solo 5 intentos.
+-Bonus2:Dar pistas al jugador, si el numero es mayor o menor.
+*/
+
 #include <stdio.h>
 
 int main()
 {
-    /*tu codigo aqui*/
-    printf("Hola Mundo desde linux y c");
-    scanf("%d", &edad);
+    int numerosecreto = 3;
+    int num = 0;
 
-    if (edad > 17){
-        /*imprimimos en pantalla */
-        printf("Bienvenido %s, tienes %d años.\n", nombre, edad);
-    }else if(edad ==17){
-        printf("Te esperamos, casi tienes 18!!");
+    while (num != numSecreto){
+        
+        printf("Escribe tu numero: \n");
+        scanf("%d", &num);
+    }
+        printf("Has acertado!! \n");
     }
     return 0;
 }
